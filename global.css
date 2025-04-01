@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: darkblue; 
+    font-family: Arial;
+	background-color: grey;
+   
+}
+#container{
+	background-color: white;
+    font-size: 25px;
+   border: 6px solid greenyellow;
+   padding: 20px;
+   align-items: center;
+   border-radius: 14px;
+   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#resultado{
+    margin-top: 20px;
+}
+#botao{
+	width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border: 8px;
+    border-radius: 8px;
+    background-color: darkslategray;
+    margin-top: 18px;
+	color: white;
+}
+#botao:hover{
+    background-color: greenyellow;
+	transform: scale(1.2);
+}
+
+#inputComprimento{
+	margin: 10px;
+	width: 150px;
+    font-size: 16px;
+}
+#inputLargura{
+	margin: 10px;
+	width: 150px;
+    font-size: 16px;
+}
